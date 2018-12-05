@@ -126,13 +126,13 @@ body {
 
 .headDiv {
     font-family: 'Raleway', sans-serif;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
-    text-align: center;
     width: 100%;
+    text-align: center;
     /* padding: 60px; */
     padding-top: 60px;
-    padding-bottom: 60px;
+    margin: 0 auto;
 }
 
 .contactSection {
@@ -146,7 +146,8 @@ body {
 .topBar {
     margin: 0 auto;
     width: 100%;
-    text-align: center;
+    /* margin-left: 30%; */
+    /* text-align: center; */
     /* overflow: hidden; */
     /* display: flex; */
     flex-wrap: wrap;
@@ -158,6 +159,15 @@ body {
     padding: 60px;
     text-align: right;
 }
+
+hr {
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 25%;
+}
+
 /*** HOVER EFFECT  **********************************************************************/
 .hexLink:hover h1,
 .hexLink:focus h1,
