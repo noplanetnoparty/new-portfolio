@@ -93,7 +93,7 @@ body {
 .hex h1 {
     bottom: 50%;
     padding-top: 50%;
-    font-size: 1.75em;
+    font-size: 1.5em;
     font-weight: 900;
     z-index: 1;
     -webkit-transform: translate3d(0, -100%, 0);
@@ -126,7 +126,7 @@ body {
 
 .headDiv {
     font-family: 'Raleway', sans-serif;
-    font-size: 50px;
+    font-size: 3.125em;
     font-weight: bold;
     width: 100%;
     text-align: center;
@@ -137,7 +137,7 @@ body {
 
 .contactSection {
     font-family: 'Raleway', sans-serif;
-    font-size: 40px;
+    font-size: 2.5em;
     font-weight: bold;
     text-align: center;
     margin: 80px;
@@ -154,7 +154,7 @@ body {
 }
 
 .headBar {
-    font-size: 60px;
+    font-size: 3.75em;
     font-family: 'Raleway', sans-serif;
     padding: 60px;
     text-align: right;
