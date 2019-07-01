@@ -125,9 +125,9 @@ body {
 /***ERIN CSS ***/
 
 .headDiv {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Cabin', sans-serif;
     font-size: 3.125em;
-    font-weight: bold;
+    font-weight: 800;
     width: 100%;
     text-align: center;
     /* padding: 60px; */
@@ -153,12 +153,12 @@ body {
     flex-wrap: wrap;
 }
 
-.headBar {
+/* .headBar {
     font-size: 3.75em;
     font-family: 'Raleway', sans-serif;
     padding: 60px;
     text-align: right;
-}
+} */
 
 hr {
     text-align: center;
@@ -178,6 +178,7 @@ hr {
     transform: translate3d(0, 0, 0);
     margin-bottom: 0;
     color: #ffffff;
+    font-size: 1em;
 }
 
 /*** HEXAGON SIZING AND EVEN ROW INDENTATION *****************************************************************/
@@ -191,6 +192,13 @@ hr {
     .hex {
         width: 20%;
         /* = 100 / 5 */
+    }
+
+    .hexLink:hover h1,
+    .hexLink:focus h1,
+    .hexLink:hover p,
+    .hexLink:focus p {
+        font-size: 1.25em;
     }
 
     .hex:nth-child(9n+6) {
@@ -212,6 +220,13 @@ hr {
         /* = 100 / 4 */
     }
 
+    .hexLink:hover h1,
+    .hexLink:focus h1,
+    .hexLink:hover p,
+    .hexLink:focus p {
+        font-size: 1.15em;
+    }
+
     .hex:nth-child(7n+5) {
         /* first hexagon of even rows */
         margin-left: 12.5%;
@@ -229,6 +244,23 @@ hr {
     .hex {
         width: 33.333%;
         /* = 100 / 3 */
+    }
+
+    /* .hexLink:hover h1,
+    .hexLink:focus h1,
+    .hexLink:hover p,
+    .hexLink:focus p {
+        font-size: .8em;
+    } */
+
+    .hexLink:hover h1,
+    .hexLink:focus h1 {
+        font-size: .95em;
+    }
+
+    .hexLink:hover p,
+    .hexLink:focus p {
+        font-size: .8em;
     }
 
     .hex:nth-child(5n+4) {
@@ -250,6 +282,16 @@ hr {
         /* = 100 / 3 */
     }
 
+    /* .hexLink:hover h1,
+    .hexLink:focus h1 {
+        font-size: .75em;
+    }
+
+    .hexLink:hover p,
+    .hexLink:focus p {
+        font-size: .6em;
+    } */
+
     .hex:nth-child(3n+3) {
         /* first hexagon of even rows */
         margin-left: 25%;
@@ -257,8 +299,8 @@ hr {
     }
 }
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
     #hexGrid {
-        font-size: .8;
+        font-size: .6em;
     }
-}
+} */
