@@ -6,7 +6,7 @@
   }
 
   .fa {
-    font-size: 1.875em;
+    font-size: 1.75em;
     color: white;
   }
 
@@ -22,4 +22,8 @@
     /* display: block; */
     /* margin: auto; */
     /* margin-top: 8%; */
+  }
+
+  .trianglesBtn:hover {
+    fill: #DA4567;
   }
