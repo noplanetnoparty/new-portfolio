@@ -1,11 +1,11 @@
 /* Hexagon CSS */
-* {
+/* * {
     margin: 0;
     padding: 0;
-}
+} */
 
 body {
-    background: rgb(235, 235, 235);
+    background: rgb(192, 192, 192);
 }
 
 #hexGrid {
@@ -178,7 +178,7 @@ hr {
     transform: translate3d(0, 0, 0);
     margin-bottom: 0;
     color: #ffffff;
-    font-size: 1em;
+    /* font-size: 1em; */
 }
 
 /*** HEXAGON SIZING AND EVEN ROW INDENTATION *****************************************************************/
