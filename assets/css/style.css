@@ -1,9 +1,8 @@
-  /* Make the image fully responsive */
-
   body {
     overflow-x: hidden;
   }
 
+  /* Make the image fully responsive */
   .carousel-inner img {
     width: 33%;
     height: 33%;
@@ -19,7 +18,7 @@
     font-weight: 800;
   }
 
-  .box{
+  .box {
     position: relative;
     height: 100%;
     width: 100%;

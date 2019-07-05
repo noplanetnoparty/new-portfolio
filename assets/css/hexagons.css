@@ -4,9 +4,9 @@
     padding: 0;
 } */
 
-body {
+/* body {
     background: rgb(192, 192, 192);
-}
+} */
 
 #hexGrid {
     display: flex;
@@ -91,9 +91,9 @@ body {
 }
 
 .hex h1 {
-    bottom: 50%;
+    bottom: 50%; 
     padding-top: 50%;
-    font-size: 1.25em;
+    font-size: 1.25em !important;
     font-weight: 900;
     z-index: 1;
     -webkit-transform: translate3d(0, -100%, 0);
@@ -127,13 +127,17 @@ body {
 .headDiv {
     font-family: 'Cabin', sans-serif;
     font-size: 3.125em;
-    font-weight: 800;
+    font-weight: 600;
     width: 100%;
     text-align: center;
     /* padding: 60px; */
     padding-top: 60px;
     margin: 0 auto;
 }
+
+/* h1 {
+    font-family: 'Cabin', sans-serif;
+} */
 
 .contactSection {
     font-family: 'Raleway', sans-serif;
@@ -160,13 +164,13 @@ body {
     text-align: right;
 } */
 
-hr {
+/* hr {
     text-align: center;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 50px;
     width: 25%;
-}
+} */
 
 /*** HOVER EFFECT  **********************************************************************/
 .hexLink:hover h1,
@@ -178,7 +182,7 @@ hr {
     transform: translate3d(0, 0, 0);
     margin-bottom: 0;
     color: #ffffff;
-    /* font-size: 1em; */
+    font-size: 1em;
 }
 
 /*** HEXAGON SIZING AND EVEN ROW INDENTATION *****************************************************************/
@@ -221,10 +225,13 @@ hr {
     }
 
     .hexLink:hover h1,
-    .hexLink:focus h1,
+    .hexLink:focus h1 {
+        font-size: 1.15em;
+    }
+
     .hexLink:hover p,
     .hexLink:focus p {
-        font-size: 1.15em;
+        font-size: 1em !important;
     }
 
     .hex:nth-child(7n+5) {
@@ -260,7 +267,7 @@ hr {
 
     .hexLink:hover p,
     .hexLink:focus p {
-        font-size: .8em;
+        font-size: .8em !important;
     }
 
     .hex:nth-child(5n+4) {
